@@ -1,0 +1,15 @@
+{
+    "env": {
+        "base_url": "https://api.openweathermap.org/data/2.5",
+        "app_id_key": "&appid=2ace8e8a776a7ae0a0428de14a963061"
+    },
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "cypress/results",        
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true
+    },
+    "video": false
+}
